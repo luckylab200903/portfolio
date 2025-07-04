@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html.dark {
+  color-scheme: dark;
+}
+
 @theme {
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
